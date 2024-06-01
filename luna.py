@@ -16,7 +16,7 @@ import locale
 # My library.
 import sunrise
 
-version = "0.0.2"
+version = "0.0.3"
 city = "timbuktu" # Hardcoded. Change city as needed.
 
 def getLunarInfo():
@@ -55,7 +55,8 @@ def getLunarInfo():
     180°, 100% = full
     270°, 50% = last quarter
     '''
-    
+   
+    phase_name = ""
     # Moon phase based on its illumination *and* phase degree.
     if (0 < percent < 47 and phase < 180):
         phase_name = "Waxing Crescent"

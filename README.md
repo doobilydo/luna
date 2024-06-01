@@ -9,5 +9,6 @@ Dependencies:
 `pip install suntime`  
 `pip install skyfield`  
 
-
+Run:  
+`python3 luna.py`  
 
